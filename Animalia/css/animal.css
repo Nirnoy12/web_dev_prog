@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: hwb(35 0% 2%);
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: none;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Playwrite MX", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(266, 100%, 48%);
+    padding-left: 75px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0px 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 30px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #ffeb3b;
+}
+
+main .hero {
+    background-image: url('/Animalia/img/owl.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    color: white;
+    text-align: center;
+}
+
+.hero .container {
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    position: relative;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;;
+
+}
+
+.para{
+    font-size: 35px;
+    color: hsl(266, 100%, 48%);
+}
+
+input {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-bottom: 10px solid rgb(8, 225, 23);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 40%;
+}
+
+.features {
+    padding: 30px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .feature {
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.features h3 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

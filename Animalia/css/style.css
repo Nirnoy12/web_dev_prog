@@ -1,0 +1,190 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  border: none;
+  padding: none;
+}
+
+.Question {
+  font-size: 70px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+  margin: none;
+  padding: none;
+  border: none;
+  text-align: center;
+}
+
+.container1 {
+  width: 50%;
+  position: fixed;
+  background-color: black;
+  height: 650px;
+
+}
+
+.img {
+  position: fixed;
+  height: 650px;
+  padding: none;
+  margin: none;
+  border: none;
+  display: block;
+}
+
+.img2 {
+  position: fixed;
+  height: 650px;
+  width: 400px;
+  padding: none;
+  margin: none;
+  border: none;
+  display: block;
+  left: 25%;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container1:hover .image {
+  opacity: 0.3;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 36px;
+  font-weight: bolder;
+  font-style: italic;
+  padding: 16px 32px;
+}
+
+.button1 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+
+}
+
+.link_button1 {
+  position: relative;
+}
+
+.container2 {
+  width: 50%;
+  position: fixed;
+  background-color: black;
+  height: 650px;
+  left: 50%;
+}
+
+.img3 {
+  position: fixed;
+  height: 650px;
+  padding: none;
+  margin: none;
+  border: none;
+  display: block;
+}
+
+.img4 {
+  position: fixed;
+  height: 650px;
+  width: 400px;
+  padding: none;
+  margin: none;
+  border: none;
+  display: block;
+  left: 75%;
+}
+
+.container2:hover .image {
+  opacity: 0.3;
+}
+
+.container2:hover .middle {
+  opacity: 1;
+}
+
+.button2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+
+}
+
+.link_button2 {
+  position: relative;
+}
+
+a {
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all .35s;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all .35s;
+}
+
+.icon svg {
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: #2ecc71;
+  transition: all .35s;
+}
+
+a:hover {
+  width: 200px;
+  border: 3px solid #2ecc71;
+  background: transparent;
+  color: #2ecc71;
+}
+
+a:hover+.icon {
+  border: 3px solid #2ecc71;
+  right: -25%;
+}
